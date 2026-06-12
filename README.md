@@ -55,10 +55,6 @@ End-to-end ML pipeline predicting daily rainfall for all 72 Uttar Pradesh distri
 
 ---
 
-## 🧠 Projects
-
----
-
 ### 📰 VoxVarta AI — Real-Time News Intelligence System  
 *AI-powered news platform for summarization, Q&A, and personalized news consumption*
 
