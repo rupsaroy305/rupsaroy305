@@ -55,27 +55,43 @@ End-to-end ML pipeline predicting daily rainfall for all 72 Uttar Pradesh distri
 
 ---
 
-### 🏦 Customer Churn Prediction — Banking Dataset
-*Multi-model comparison: ANN vs Random Forest vs XGBoost vs LightGBM*
-
-Built a complete churn prediction pipeline on a 10,000-row bank customer dataset. Compared four models — a custom deep neural network (TensorFlow/Keras with Dropout + EarlyStopping), Random Forest, XGBoost, and LightGBM — with class imbalance handling and StandardScaler preprocessing.
-
-`Python` `TensorFlow/Keras` `XGBoost` `LightGBM` `Scikit-learn` `Pandas`
+## 🧠 Projects
 
 ---
 
-### 📚 AI Study Chatbot — RAG-Based PDF Q&A
-Retrieval-Augmented Generation chatbot for studying uploaded PDFs. Built with LangChain, FAISS vector store, HuggingFace sentence embeddings (MiniLM-L6), and Groq LLM (LLaMA 3.1 8B). Supports multi-mode study assistance: question answering, note generation, and answer comparison.
+### 📰 VoxVarta AI — Real-Time News Intelligence System  
+*AI-powered news platform for summarization, Q&A, and personalized news consumption*
 
-`Python` `LangChain` `FAISS` `HuggingFace` `Groq API` `Streamlit`
+Built an end-to-end intelligent news application that transforms raw news articles into concise and meaningful insights. Integrated real-time news fetching using the GNews API and implemented FLAN-T5 for abstractive summarization. Added a DeBERTa-based question-answering system for extracting precise answers from article context. Enhanced the system with sentiment analysis, personalized news feeds, credibility scoring, and text-to-speech functionality for audio summaries.
+
+`Python` `Streamlit` `Hugging Face Transformers` `FLAN-T5` `DeBERTa` `TextBlob` `GNews API`
 
 ---
 
-### 📖 Book Recommender System — Collaborative Filtering
-Similarity-based book recommendation engine trained on 270,000+ ratings. Deployed as an interactive Streamlit app with book cover image display and cosine-similarity-based recommendations.
+### 📄 RAG-Based Document Intelligence Assistant  
+*Retrieval-Augmented Generation system for intelligent PDF understanding and Q&A*
 
-`Python` `Pandas` `NumPy` `Scikit-learn` `Streamlit` `Pickle`
+Built a Retrieval-Augmented Generation (RAG) pipeline for interactive document querying and knowledge extraction. Used FAISS vector database for semantic search and HuggingFace MiniLM-L6 embeddings for efficient text representation. Integrated Groq LLM (LLaMA 3.1 8B) to enable contextual question answering, summarization, and multi-perspective responses from uploaded documents.
 
+`Python` `LangChain` `FAISS` `HuggingFace Embeddings` `Groq API` `Streamlit`
+
+---
+
+### 📊 Telco Customer Churn Prediction System  
+*End-to-end machine learning pipeline for predicting customer churn*
+
+Developed a machine learning system to predict telecom customer churn using structured data. Performed feature engineering, encoding of categorical variables, and handled class imbalance using XGBoost with tuned parameters. Built a Streamlit web app for real-time prediction and threshold-based decision-making for business interpretation.
+
+`Python` `XGBoost` `Scikit-learn` `Pandas` `NumPy` `Streamlit`
+
+---
+
+### 📚 Book Recommendation System — Collaborative Filtering  
+*Personalized recommendation engine based on user behavior*
+
+Built a collaborative filtering-based recommendation system using cosine similarity on 270K+ user ratings. Generated personalized book recommendations by analyzing user-item interaction patterns and deployed it as an interactive Streamlit application.
+
+`Python` `Pandas` `NumPy` `Scikit-learn` `Streamlit`
 ---
 
 ## 🛠️ Tech Stack
