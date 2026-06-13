@@ -73,7 +73,7 @@ Built a Retrieval-Augmented Generation (RAG) pipeline for interactive document q
 
 ---
 
-### 📊 Telco Customer Churn Prediction System  
+### 📊 Customer Churn Prediction System  
 *End-to-end machine learning pipeline for predicting customer churn*
 
 Developed a machine learning system to predict telecom customer churn using structured data. Performed feature engineering, encoding of categorical variables, and handled class imbalance using XGBoost with tuned parameters. Built a Streamlit web app for real-time prediction and threshold-based decision-making for business interpretation.
